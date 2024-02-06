@@ -2,13 +2,13 @@
 Surchin is a simple script which works to redirect sites found with duckduckgo for lynx.
 
 ## Table of Contents
-- Description
-- Requirements
-- Installation
-	- Script
-	- Manual Install
-- Redirector
-- Usage
+- [Description](https://github.com/ks-nunes/surchin#Description)
+- [Requirements](https://github.com/ks-nunes/surchin#Requirements)
+- [Installation](https://github.com/ks-nunes/surchin#Installation)
+	- [Script](https://github.com/ks-nunes/surchin#Script)
+	- [Manual Install](https://github.com/ks-nunes/surchin#Manual)
+- [Redirector](https://github.com/ks-nunes/surchin#Redirector)
+- [Usage](https://github.com/ks-nunes/surchin#Usage)
 ## Description
 To my knowledge lynx doesn't have extensions and I wanted to use privacy respecting frontends. So this was born, it functions as an intermediary between my chosen search engine(duckduckgo) and lynx, being a sort of pseudo browser extension. The name is a play on searching and sea urchins. 
 ## Requirements 
@@ -22,7 +22,7 @@ git clone https://github.com/ks-nunes/surchin ~/surchin
 chmod +x ~/surchin/setup.sh
 sudo ./setup.sh
 ```
-### Manual Install
+### Manual
 ```
 pip install duckduckgo_search
 git clone https://github.com/ks-nunes/surchin ~/surchin
