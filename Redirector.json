@@ -2,7 +2,7 @@
         {
             "description": "Twitter/Nitter",
             "exampleUrl": "https://www.twitter.com/",
-            "exampleResult": "https://farside.link/nitter/",
+            "exampleResult": "https://nitter.net/",
             "error": null,
             "includePattern": "https://www.twitter.com/*",
             "excludePattern": "",
