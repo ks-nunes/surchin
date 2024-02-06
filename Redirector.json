@@ -1,0 +1,36 @@
+[
+        {
+            "description": "Twitter/Nitter",
+            "exampleUrl": "https://www.twitter.com/",
+            "exampleResult": "https://farside.link/nitter/",
+            "error": null,
+            "includePattern": "https://www.twitter.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nitter.net/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Reddit/Libreddit",
+            "exampleUrl": "https://www.reddit.com/",
+            "exampleResult": "https://farside.link/libreddit/",
+            "error": null,
+            "includePattern": "https://www.reddit.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://reddit.simo.sh/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
